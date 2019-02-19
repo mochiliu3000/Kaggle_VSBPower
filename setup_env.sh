@@ -6,5 +6,5 @@ fi
 
 export KAGGLE_USERNAME=$1
 export KAGGLE_KEY=$2
-pip3 install --upgrade numpy pandas numba tensorflow keras tqdm matplotlib seaborn kaggle 
+pip3 install --upgrade numpy pandas scipy numba pyarrow tensorflow keras tqdm matplotlib seaborn kaggle 
 kaggle competitions download -c vsb-power-line-fault-detection
